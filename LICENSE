@@ -1,0 +1,25 @@
+Non-Commercial Use Notice
+
+Copyright (c) 2026 Reddit Demand Radar contributors.
+
+This project is published for personal learning, research, and non-commercial
+reference use only.
+
+Commercial use is not permitted without prior written permission from the
+project maintainers and any relevant upstream rights holders.
+
+This project includes ideas, structure, or implementation references inspired by
+third-party non-commercial work. See docs/ATTRIBUTION.md for upstream credit.
+If you use, modify, redistribute, or build on this project, you are responsible
+for checking and complying with the original upstream project's license terms,
+Reddit's terms, DeepSeek's terms, n8n's terms, and any other third-party service
+terms that apply to your use case.
+
+You may view, study, run locally, and modify this project for personal
+non-commercial purposes. You may not sell this project, offer it as a paid
+service, use it in a commercial product, or redistribute it for commercial
+purposes unless you have obtained the necessary permissions.
+
+THE PROJECT IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. THE AUTHORS AND
+CONTRIBUTORS ARE NOT LIABLE FOR ANY CLAIM, DAMAGES, COSTS, OR OTHER LIABILITY
+ARISING FROM USE OF THE PROJECT.

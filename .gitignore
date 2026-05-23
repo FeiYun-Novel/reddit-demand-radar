@@ -1,0 +1,15 @@
+.env
+__pycache__/
+*.pyc
+*.db
+data/
+venv/
+.DS_Store
+
+# Local AI/project working notes. Kept locally, not published.
+00_AI_WIKI/
+docs/prd/
+docs/issues/
+docs/troubleshooting/
+docs/beginner-review-and-supplement.md
+docs/github-publish-checklist.md

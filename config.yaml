@@ -1,0 +1,24 @@
+reddit:
+  default_subreddit: all
+  default_limit: 30
+  search_sort: relevance
+  search_time_filter: month
+  starter_subreddits:
+    - SideProject
+    - SaaS
+    - Entrepreneur
+    - startups
+    - productivity
+    - smallbusiness
+
+ai:
+  provider: deepseek
+  base_url: https://api.deepseek.com
+  model: deepseek-chat
+  filter_threshold: 5.0
+
+database:
+  path: data/radar.db
+
+webhook:
+  max_posts_per_request: 25
