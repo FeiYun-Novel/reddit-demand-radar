@@ -147,13 +147,10 @@ This project is an AI-assisted educational rewrite inspired by [Mohamedsaleh14/R
 
 ## 安全 / Security
 
-- `.env` 和 `data/` 目录已在 `.gitignore` 中，不会提交到 Git
-- Reddit 使用公开 JSON API，无需配置 OAuth 凭证
-- 所有数据存储在本地 SQLite，不上传云端
-- Webhook 默认需要 `WEBHOOK_TOKEN`，并且默认不自动触发 AI 分析，避免后台自动化意外消耗 API 额度
-- 每次 CLI / UI / Webhook 批次会记录 `run_id`，AI 调用会写入本地 `ai_calls` 账本，分析结果历史会写入 `analysis_results`，便于排查成本和失败原因
-
-本仓库只包含代码、模板和公开文档，不包含本地 `.env`、SQLite 数据库、抓取结果或内部开发笔记。
+- This public repository only contains source code, templates, tests, and public documentation.
+- Local secrets, API keys, SQLite databases, scraped data, and private working notes are intentionally excluded.
+- Reddit search uses Reddit's public JSON endpoints; AI analysis requires the user's own API key.
+- Webhook ingestion is protected by a local token and does not trigger AI analysis automatically.
 
 ## 许可与商用限制 / License & Commercial Use
 
